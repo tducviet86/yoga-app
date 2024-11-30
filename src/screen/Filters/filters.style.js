@@ -1,0 +1,150 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#F9F9F9",
+  },
+  containerShop: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingHorizontal: 10,
+    paddingTop: 50,
+    paddingBottom: 10,
+    // borderBottomColor: "#E0E0E0",
+
+    backgroundColor: "rgba(249, 249, 249, 1)",
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: "600",
+  },
+  section: {
+    marginVertical: 15,
+  },
+  priceSlider: {
+    flexDirection: "column",
+    shadowColor: "#ccc",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.6,
+    paddingHorizontal: 10,
+    backgroundColor: "#FFFFFF",
+  },
+  sectionTitle: {
+    marginHorizontal: 10,
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 10,
+    color: "#333",
+  },
+  priceRangeText: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    paddingHorizontal: 10,
+    marginTop: 5,
+  },
+  colorContainer: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "space-around",
+    gap: 10,
+    shadowColor: "#ccc",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.6,
+    paddingHorizontal: 10,
+    paddingVertical: 15,
+    backgroundColor: "#FFFFFF",
+  },
+  colorCircle: {
+    width: 44,
+    height: 44,
+    borderRadius: 24,
+    borderWidth: 1,
+    borderColor: "#E0E0E0",
+    marginRight: 10,
+    marginBottom: 10,
+  },
+  sizeContainer: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "space-around",
+    gap: 10,
+    shadowColor: "#ccc",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.6,
+    paddingHorizontal: 10,
+    paddingVertical: 15,
+    backgroundColor: "#FFFFFF",
+  },
+  sizeButton: {
+    borderWidth: 1,
+    borderColor: "#495057",
+    borderRadius: 20,
+    paddingVertical: 5,
+    paddingHorizontal: 15,
+    marginRight: 10,
+    marginBottom: 10,
+  },
+  categoryContainer: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 10,
+    shadowColor: "#ccc",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.6,
+    paddingHorizontal: 10,
+    paddingVertical: 15,
+    backgroundColor: "#FFFFFF",
+  },
+  categoryButton: {
+    backgroundColor: "#F8F9FA",
+    borderRadius: 20,
+    paddingVertical: 8,
+    paddingHorizontal: 15,
+    marginRight: 10,
+    marginBottom: 10,
+  },
+  footer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    padding: 15,
+    borderTopWidth: 1,
+    borderTopColor: "#E0E0E0",
+  },
+  discardButton: {
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderRadius: 5,
+    backgroundColor: "#F8F9FA",
+    borderColor: "#E0E0E0",
+    borderWidth: 1,
+  },
+  applyButton: {
+    paddingVertical: 12,
+    borderRadius: 5,
+    backgroundColor: "#FF6F61",
+  },
+
+  thumbStyle: {
+    height: 20,
+    width: 20,
+    borderWidth: 2,
+    borderColor: "#FFFFFF",
+  },
+  selectedColorCircle: {
+    borderWidth: 3,
+    borderColor: "#DB3022",
+  },
+
+  selectedSizeButton: {
+    backgroundColor: "#DB3022",
+    color: "#FFF",
+  },
+
+  selectedCategoryButton: {
+    backgroundColor: "#DB3022",
+    color: "#FFF",
+  },
+});
+export default styles;
